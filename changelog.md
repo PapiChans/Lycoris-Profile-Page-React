@@ -6,3 +6,8 @@
 - Change Icon
 - Install Taiwind
 - Customize File Structure
+
+**v0.0.2**
+- April 1, 2025
+- Fix Readme.MD Version Typo
+- Add LICENSE
