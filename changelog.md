@@ -15,3 +15,7 @@
 **v0.0.2.1**
 - April 2, 2025
 - Remake `main.js` to `hero.js`
+
+**v0.0.3**
+- April 3, 2025
+- Add Anime Assets
