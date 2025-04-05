@@ -1,0 +1,24 @@
+/*© Christian Altiche, 2025*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth; /*This allows the scroll smoother. */
+  }
+
+
+:root {
+    -pallete-chisato: rgb(173, 64, 74);
+    -pallete-takina: rgb(49, 57, 74);
+    -pallete-kurumi: rgb(229, 201, 157);
+}
+
+.ff-goldman {
+    font-family: Goldman;
+}
+
+.ff-be-vietnam-pro {
+    font-family: Be Vietnam Pro;
+}

@@ -19,3 +19,9 @@
 **v0.0.3**
 - April 3, 2025
 - Add Anime Assets
+
+**v0.0.4**
+- April 4, 20255
+- Remove unused logos
+- Pre-initiating CSS index for color pallete
+- Add Google Fonts
