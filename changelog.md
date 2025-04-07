@@ -21,7 +21,11 @@
 - Add Anime Assets
 
 **v0.0.4**
-- April 4, 20255
+- April 4, 2025
 - Remove unused logos
 - Pre-initiating CSS index for color pallete
 - Add Google Fonts
+
+**v0.0.5**
+- April 7, 2025
+- Assigned Variable
