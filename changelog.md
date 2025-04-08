@@ -29,3 +29,10 @@
 **v0.0.5**
 - April 7, 2025
 - Assigned Variable
+
+**v0.0.6**
+- April 8, 2025
+- Remove hero.bg
+- Initiate Navbar
+- Initiate Master Color
+- Initiate Home
