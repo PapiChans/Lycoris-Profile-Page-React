@@ -36,3 +36,9 @@
 - Initiate Navbar
 - Initiate Master Color
 - Initiate Home
+
+**v0.0.7**
+- April 9, 2025
+- Design Navbar
+- Add Color Palletes on Tailwind Config
+- Add Font Awesome
