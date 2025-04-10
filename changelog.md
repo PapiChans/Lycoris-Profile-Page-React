@@ -42,3 +42,7 @@
 - Design Navbar
 - Add Color Palletes on Tailwind Config
 - Add Font Awesome
+
+**v0.0.8**
+- April 10, 2025
+- Complete Layout for Navbar
