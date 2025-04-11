@@ -46,3 +46,9 @@
 **v0.0.8**
 - April 10, 2025
 - Complete Layout for Navbar
+
+**v0.0.9**
+- April 11, 2025
+- Add Color Pallete Content
+- Add safe secntion on Tailwind config
+- Assign a globaal variable for color pallete

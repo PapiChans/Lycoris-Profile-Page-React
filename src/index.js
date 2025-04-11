@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App.css';
 
-// Importing the default
+// Importing the default BG color
 import DefaultBG from './master/default_bg';
+// Color Pallete
+import { ThemeProvider } from './master/theme';
 
 // Components
 import Navbar from './components/navbar';
@@ -15,8 +17,10 @@ main.render(
 
   <React.StrictMode>
     <DefaultBG>
-      <Navbar />
-      <Home />
+      <ThemeProvider>
+        <Navbar />
+        <Home />
+      </ThemeProvider>
     </DefaultBG>
   </React.StrictMode>
 );

@@ -12,5 +12,10 @@ module.exports = {
       }
     },
   },
+  safelist: [
+    'bg-chisato',
+    'bg-takina',
+    'bg-kurumi',
+  ],
   plugins: [],
 }
