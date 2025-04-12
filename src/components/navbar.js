@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="h-14 w-full bg-pink-200 bg-opacity-45 flex">
+      <div className="z-10 h-14 w-full bg-slate-200 backdrop-blur-sm bg-opacity-45 flex fixed">
         <div className='flex h-full w-6/12 md:w-4/12'>
           <div className='h-full w-full flex items-center px-8'>
             <img src={ Logo } className='h-1/3 md:h-1/2 w-auto cursor-pointer' alt="Logo with text"></img>
@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className='flex h-full w-6/12 sm:w-8/12 items-center px-8'>
             <ul className="flex md:hidden justify-end h-full w-full ff-goldman text-md font-light">
               <li className="h-full w-20 flex items-center justify-center cursor-pointer relative group transition-all ease-in-out duration-300 bg-transparent hover:text-slate-50">
-                <i class="z-10 fa-solid fa-bars text-2xl cursor-pointer"></i>
+                <i class="z-20 fa-solid fa-bars text-2xl cursor-pointer"></i>
                 <div className={`absolute inset-0 bg-${theme} transition-all duration-300 transform scale-y-0 group-hover:scale-y-100 origin-top`}></div>
               </li>
             </ul>
@@ -28,7 +28,7 @@ const Navbar = () => {
               <ul className="flex justify-end h-full w-full ff-goldman text-md font-light">
               {menuItems.map((item, idx) => (
                 <li key={idx} className="h-full w-20 flex items-center justify-center cursor-pointer relative group transition-all ease-in-out duration-300 bg-transparent">
-                  <span className="z-10 group-hover:text-slate-50">{item}</span>
+                  <span className="z-20 group-hover:text-slate-50">{item}</span>
                   <div className={`absolute inset-0 bg-${theme} transition-all duration-300 transform scale-y-0 group-hover:scale-y-100 origin-top`}></div>
                 </li>
               ))}

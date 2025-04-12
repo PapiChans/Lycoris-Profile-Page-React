@@ -52,3 +52,8 @@
 - Add Color Pallete Content
 - Add safe secntion on Tailwind config
 - Assign a globaal variable for color pallete
+
+**v0.0.10**
+- April 12, 2025
+- Initiate Home Section
+- Add Blur for Navbar
