@@ -57,3 +57,7 @@
 - April 12, 2025
 - Initiate Home Section
 - Add Blur for Navbar
+
+**v0.0.11**
+- April 13, 2025
+- Prepare the Layout for the Home Section
