@@ -61,3 +61,7 @@
 **v0.0.11**
 - April 13, 2025
 - Prepare the Layout for the Home Section
+
+**v0.0.12**
+- April 14, 2025
+- Add Gallery Assets
