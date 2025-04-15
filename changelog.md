@@ -65,3 +65,8 @@
 **v0.0.12**
 - April 14, 2025
 - Add Gallery Assets
+
+**v0.0.13**
+- April 15, 2025
+- Add GSlide Carousel Depedency
+- Initiation Home Slide (Incomplete)
