@@ -70,3 +70,9 @@
 - April 15, 2025
 - Add GSlide Carousel Depedency
 - Initiation Home Slide (Incomplete)
+
+**v0.0.14**
+- April 16, 2025
+- Add Content for tailwind.config.js
+- Fix picture Slide for Home component
+- Adjust Navbar

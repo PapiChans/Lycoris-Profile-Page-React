@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="z-10 h-14 w-full bg-slate-200 backdrop-blur-sm bg-opacity-45 flex fixed">
+      <div className="z-10 h-14 w-full bg-slate-50 backdrop-blur-sm bg-opacity-20 flex fixed">
         <div className='flex h-full w-6/12 md:w-4/12'>
           <div className='h-full w-full flex items-center px-8'>
             <img src={ Logo } className='h-1/3 md:h-1/2 w-auto cursor-pointer' alt="Logo with text"></img>

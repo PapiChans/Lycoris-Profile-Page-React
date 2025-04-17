@@ -16,6 +16,12 @@ module.exports = {
     'bg-chisato',
     'bg-takina',
     'bg-kurumi',
+    'border-chisato',
+    'border-takina',
+    'border-kurumi',
+    'text-chisato',
+    'text-takina',
+    'text-kurumi',
   ],
   plugins: [],
 }
