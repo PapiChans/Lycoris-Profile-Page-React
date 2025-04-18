@@ -76,3 +76,10 @@
 - Add Content for tailwind.config.js
 - Fix picture Slide for Home component
 - Adjust Navbar
+- 
+**v0.1.0**
+- April 17, 2025
+- Complete "Home" Component
+- Add Background
+- Add Text Pallete in CSS
+- Additional Info for CharacterInfo

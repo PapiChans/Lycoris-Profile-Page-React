@@ -3,7 +3,7 @@ import Logo from '../assets/logo/logo-with-text.png';
 import { useContext } from 'react';
 import { ThemeContext } from '../master/theme';
 
-const menuItems = ['Home', 'Gallery', 'Bio', 'Skills', 'Facts', 'Quotes'];
+const menuItems = ['Home', 'Gallery', 'Profile', 'Trivia', 'Credits','Switch'];
 
 const Navbar = () => {
 
