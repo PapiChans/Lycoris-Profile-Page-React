@@ -10,6 +10,7 @@ import { ThemeProvider } from './master/theme';
 
 // Components
 import Navbar from './components/navbar';
+import NavbarMenu from './components/navbar_menu';
 import Home from './components/home';
 
 const main = ReactDOM.createRoot(document.getElementById('main'));
@@ -19,6 +20,7 @@ main.render(
     <DefaultBG>
       <ThemeProvider>
         <Navbar />
+        <NavbarMenu />
         <Home />
       </ThemeProvider>
     </DefaultBG>
