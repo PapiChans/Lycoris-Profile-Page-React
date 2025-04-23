@@ -89,3 +89,7 @@
 - Initiating Sidebar
 - Remove FontAwesome JS
 - Minor Adjustment for the front-end
+
+**v0.1.2**
+- April 23, 2025
+- Sidebar Layout Completed
