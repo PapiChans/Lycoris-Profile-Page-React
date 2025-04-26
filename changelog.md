@@ -93,3 +93,8 @@
 **v0.1.2**
 - April 23, 2025
 - Sidebar Layout Completed
+
+**v0.2.0**
+- April 26, 2025
+- Add NavBarWrapper
+- Sidebar function completed

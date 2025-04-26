@@ -9,8 +9,7 @@ import DefaultBG from './master/default_bg';
 import { ThemeProvider } from './master/theme';
 
 // Components
-import Navbar from './components/navbar';
-import NavbarMenu from './components/navbar_menu';
+import NavbarWrapper from './components/navwrapper';
 import Home from './components/home';
 
 const main = ReactDOM.createRoot(document.getElementById('main'));
@@ -19,8 +18,7 @@ main.render(
   <React.StrictMode>
     <DefaultBG>
       <ThemeProvider>
-        <Navbar />
-        <NavbarMenu />
+        <NavbarWrapper />        
         <Home />
       </ThemeProvider>
     </DefaultBG>
