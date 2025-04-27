@@ -98,3 +98,7 @@
 - April 26, 2025
 - Add NavBarWrapper
 - Sidebar function completed
+
+**v0.2.1**
+- April 27, 2025
+- Small Improvement for Sidebar

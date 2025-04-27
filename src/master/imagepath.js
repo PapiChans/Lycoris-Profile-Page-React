@@ -22,10 +22,18 @@ import kurumi4 from '../assets/gallery/kurumi/kurumi-4.webp';
 import kurumi5 from '../assets/gallery/kurumi/kurumi-5.webp';
 import kurumi6 from '../assets/gallery/kurumi/kurumi-6.webp';
 
+// Models
+import modelchisato from '../assets/models/chisato-nishikigi.png';
+import modeltakina from '../assets/models/takina-inoue.png';
+import modelkurumi from '../assets/models/kurumi.png';
+
 const imageMap = {
   chisato: [chisato1, chisato2, chisato3, chisato4, chisato5, chisato6],
   takina: [takina1, takina2, takina3, takina4, takina5, takina6],
   kurumi: [kurumi1, kurumi2, kurumi3, kurumi4, kurumi5, kurumi6],
+  modelchisato: [modelchisato],
+  modeltakina: [modeltakina],
+  modelkurumi: [modelkurumi]
 };
 
 export default imageMap;

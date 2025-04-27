@@ -15,19 +15,14 @@ const NavbarMenu = ({ closeMenu }) => {
 
   const handleClose = () => {
     setAnimate(false);
-    setTimeout(() => closeMenu(), 1000); 
+    setTimeout(() => closeMenu(), 300); 
   };
 
   return (
     <div>
-      <div 
-        className={`block fixed h-full w-full bg-slate-800 bg-opacity-50 blur-lg z-30 ${animate ? 'opacity-50' : 'opacity-0'}`} 
-        onClick={handleClose}
-      ></div>
+      <div onClick={handleClose} className={`block fixed h-full w-full bg-slate-800 bg-opacity-50 blur-lg z-30 ${animate ? 'opacity-100' : 'opacity-0'}`}></div>
       
-      <div 
-        className={`z-40 h-full w-80 bg-slate-200 fixed transform transition-transform duration-300 ${animate ? 'translate-x-0' : '-translate-x-full'}`}
-      >
+      <div className={`z-40 h-full w-80 bg-slate-100 bg-opacity-80 fixed transform transition-transform duration-300 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className='w-full h-auto flex justify-end items-center py-4 px-8'>
           <i 
             className={`z-20 fa-solid fa-close text-2xl cursor-pointer transition-all ease-in-out duration-300 text-slate-800 hover-text-${theme}`} 
@@ -35,23 +30,25 @@ const NavbarMenu = ({ closeMenu }) => {
           ></i>
         </div>
         
-        <div className='px-12 pt-4'>
+        <div className='px-12'>
           <img className='w-auto cursor-pointer' alt="Logo" src={Logo}></img>
         </div>
         
-        <ul className='ff-goldman text-lg font-light mt-8'>
+        <ul className='ff-goldman text-lg font-light mt-4'>
           {menuItems.map((item, idx) => (
             <li 
               key={idx} 
-              className='text-dark w-full flex items-center cursor-pointer relative group transition-all ease-in-out duration-500 bg-transparent py-4 pl-8'
-            >
-              <span className="z-40 group-hover:text-slate-50">{item}</span>
+              className='text-dark w-full flex items-center cursor-pointer relative group transition-all ease-in-out duration-1000 bg-transparent py-4 pl-8'
+              onClick={handleClose}>
+              <span className="z-40 group-hover:text-slate-50 text-md">{item}</span>
               <div 
                 className={`absolute inset-0 bg-${theme} transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 origin-left`}
-              ></div>
+                ></div>
             </li>
           ))}
         </ul>
+        <div className='flex w-full h-full justify-center'>
+        </div>
       </div>
     </div>
   );
