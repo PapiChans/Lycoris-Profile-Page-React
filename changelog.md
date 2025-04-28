@@ -102,3 +102,7 @@
 **v0.2.1**
 - April 27, 2025
 - Small Improvement for Sidebar
+- 
+**v0.2.2**
+- April 28, 2025
+- Initiation of Switch Character

@@ -11,6 +11,7 @@ import { ThemeProvider } from './master/theme';
 // Components
 import NavbarWrapper from './components/navwrapper';
 import Home from './components/home';
+import SwitchCharacter from './master/switchcharacter';
 
 const main = ReactDOM.createRoot(document.getElementById('main'));
 main.render(
@@ -18,7 +19,8 @@ main.render(
   <React.StrictMode>
     <DefaultBG>
       <ThemeProvider>
-        <NavbarWrapper />        
+        <NavbarWrapper />
+        <SwitchCharacter/>
         <Home />
       </ThemeProvider>
     </DefaultBG>
