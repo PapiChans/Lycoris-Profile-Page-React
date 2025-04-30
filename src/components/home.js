@@ -11,7 +11,7 @@ import characterInfo from '../master/characterInfo';
 // Import Background
 import background1 from '../assets/background/background-1.jpg';
 
-const Home = () => {
+const Home = ({ openSwitch }) => {
   // Set the Color Pallete
   const { theme } = useContext(ThemeContext);
 
@@ -71,7 +71,7 @@ const Home = () => {
             <h1 className='ff-goldman text-4xl md:text-5xl sm:text-4xl text-slate-950 text-center'><span className={`text-${theme}`}>-</span>{ character.name }<span className={`text-${theme}`}>-</span></h1>
             <p className={`ff-be-vietnam-pro font-bold text-center ease-in-out transition-all text-slate-950 duration-300 text-lg hover-text-${theme}`}>{character.japanese}</p>
             <p className={`ff-be-vietnam-pro font-normal text-center ease-in-out transition-all text-slate-950 duration-300 text-lg`}>CV: {character.va_japanese}</p>
-            <button type='button' className={`h-12 w-40 bg-${theme} transition-all duration-300 ease-in-out hover:brightness-110 rounded-lg`}>
+            <button onClick={openSwitch} type='button' className={`h-12 w-40 bg-${theme} transition-all duration-300 ease-in-out hover:brightness-110 rounded-lg`}>
               <p className='ff-be-vietnam-pro font-normal text-center text-slate-50'>Switch Character</p>
             </button>
           </div>
