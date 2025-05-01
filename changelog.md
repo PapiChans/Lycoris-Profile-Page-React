@@ -110,3 +110,7 @@
 **v0.2.3**
 - April 30, 2025
 - Add Switcch Character Function
+
+**v0.2.4**
+- May 1, 2025
+- Prepare Photocard for Switching Character
