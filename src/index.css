@@ -46,3 +46,16 @@
 .hover-text-kurumi:hover {
   @apply text-kurumi;
 }
+
+/* Theme on Scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-slider-thumb {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}

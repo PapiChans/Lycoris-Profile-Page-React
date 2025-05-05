@@ -27,13 +27,21 @@ import modelchisato from '../assets/models/chisato-nishikigi.png';
 import modeltakina from '../assets/models/takina-inoue.png';
 import modelkurumi from '../assets/models/kurumi.png';
 
+// Switch Characters
+import cardchisato from '../assets/photocards/card-chisato.webp';
+import cardtakina from '../assets/photocards/card-takina.webp';
+import cardkurumi from '../assets/photocards/card-kurumi.webp';
+
 const imageMap = {
   chisato: [chisato1, chisato2, chisato3, chisato4, chisato5, chisato6],
   takina: [takina1, takina2, takina3, takina4, takina5, takina6],
   kurumi: [kurumi1, kurumi2, kurumi3, kurumi4, kurumi5, kurumi6],
   modelchisato: [modelchisato],
   modeltakina: [modeltakina],
-  modelkurumi: [modelkurumi]
+  modelkurumi: [modelkurumi],
+  cardchisato: cardchisato,
+  cardtakina: cardtakina,
+  cardkurumi: cardkurumi
 };
 
 export default imageMap;

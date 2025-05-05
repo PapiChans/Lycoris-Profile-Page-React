@@ -118,3 +118,7 @@
 **v0.2.5**
 - May 4, 2025
 - Add Layout for the Switch Characer Card
+
+**v0.2.6**
+- May 5, 2025
+- Add PhotoCard for the Switch Character Card
