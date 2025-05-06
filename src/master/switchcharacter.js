@@ -19,13 +19,13 @@ const Switchcharacter = () => {
               <h2 className='ff-goldman text-center text-5xl text-slate-50'>SELECT CHARACTER</h2>
           </div>
           <div className='w-100 grid md:flex items-start pb-40 justify-center h-full px-0 md:px-8 overflow-y-scroll md:overflow-y-hidden'>
-            <div className='w-auto h-96 m-12 flex justify-center transition-all duration-300 ease-in-out grayscale hover:grayscale-0 cursor-pointer brightness-110 contrast-100 saturate-150 scale-100 hover:scale-110 border-4 border-slate-100 rounded-sm'>
+            <div className={`${isSwitchOpen ? 'translate-y-0' : 'translate-y-96'} w-auto h-96 m-12 flex justify-center transition-transform duration-500 ease-in-out grayscale hover:grayscale-0 cursor-pointer brightness-110 contrast-100 saturate-150 scale-100 hover:scale-110 border-4 border-slate-100 rounded-sm`}>
               <img className='w-full' src={imageMap.cardchisato} alt='photocard'></img>
             </div>
-            <div className='w-auto h-96 m-12 flex justify-center transition-all duration-300 ease-in-out grayscale hover:grayscale-0 cursor-pointer brightness-110 contrast-100 saturate-150 scale-100 hover:scale-110 border-4 border-slate-100 rounded-sm'>
+            <div className={`${isSwitchOpen ? 'translate-y-0' : 'translate-y-96'} w-auto h-96 m-12 flex justify-center transition-transform duration-500 ease-in-out grayscale hover:grayscale-0 cursor-pointer brightness-110 contrast-100 saturate-150 scale-100 hover:scale-110 border-4 border-slate-100 rounded-sm`}>
               <img className='w-full' src={imageMap.cardtakina} alt='photocard'></img>
             </div>
-            <div className='w-auto h-96 m-12 flex justify-center transition-all duration-300 ease-in-out grayscale hover:grayscale-0 cursor-pointer brightness-110 contrast-100 saturate-150 scale-100 hover:scale-110 border-4 border-slate-100 rounded-sm'>
+            <div className={`${isSwitchOpen ? 'translate-y-0' : 'translate-y-96'} w-auto h-96 m-12 flex justify-center transition-transform duration-500 ease-in-out grayscale hover:grayscale-0 cursor-pointer brightness-110 contrast-100 saturate-150 scale-100 hover:scale-110 border-4 border-slate-100 rounded-sm`}>
               <img className='w-full' src={imageMap.cardkurumi} alt='photocard'></img>
             </div>
           </div>

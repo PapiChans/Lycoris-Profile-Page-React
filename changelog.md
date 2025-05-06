@@ -122,3 +122,7 @@
 **v0.2.6**
 - May 5, 2025
 - Add PhotoCard for the Switch Character Card
+  
+**v0.2.7**
+- May 6,2025
+- Add Animation for the Switch Character Card
