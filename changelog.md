@@ -126,3 +126,7 @@
 **v0.2.7**
 - May 6,2025
 - Add Animation for the Switch Character Card
+
+**v0.2.8**
+- May 7,2025
+- Add Function for Switching Character Card (Basic)
