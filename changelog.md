@@ -130,3 +130,7 @@
 **v0.2.8**
 - May 7,2025
 - Add Function for Switching Character Card (Basic)
+
+**v0.2.9**
+- May 8,2025
+- Add Loading Screen when Switching Character

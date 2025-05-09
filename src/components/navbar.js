@@ -20,7 +20,7 @@ const Navbar = ({ openMenu }) => {
         <div className='flex h-full w-6/12 sm:w-8/12 items-center px-8'>
             <ul className="flex md:hidden justify-end h-full w-full ff-goldman text-md font-light">
               <li className="h-full w-20 flex items-center justify-center cursor-pointer relative group transition-all ease-in-out duration-300 bg-transparent hover:text-slate-50" onClick={openMenu}>
-                <i class="z-20 fa-solid fa-bars text-2xl cursor-pointer"></i>
+                <i className="z-20 fa-solid fa-bars text-2xl cursor-pointer"></i>
                 <div className={`absolute inset-0 bg-${theme} transition-all duration-300 transform scale-y-0 group-hover:scale-y-100 origin-top`}></div>
               </li>
             </ul>

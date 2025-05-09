@@ -32,16 +32,24 @@ import cardchisato from '../assets/photocards/card-chisato.webp';
 import cardtakina from '../assets/photocards/card-takina.webp';
 import cardkurumi from '../assets/photocards/card-kurumi.webp';
 
+//Symbols
+import symbolchisato from '../assets/symbols/chisato-icon-symbol.png'
+import symboltakina from '../assets/symbols/takina-icon-symbol.png'
+import symbolkurumi from '../assets/symbols/kurumi-icon-symbol.png'
+
 const imageMap = {
   chisato: [chisato1, chisato2, chisato3, chisato4, chisato5, chisato6],
   takina: [takina1, takina2, takina3, takina4, takina5, takina6],
   kurumi: [kurumi1, kurumi2, kurumi3, kurumi4, kurumi5, kurumi6],
-  modelchisato: [modelchisato],
-  modeltakina: [modeltakina],
-  modelkurumi: [modelkurumi],
+  modelchisato: modelchisato,
+  modeltakina: modeltakina,
+  modelkurumi: modelkurumi,
   cardchisato: cardchisato,
   cardtakina: cardtakina,
-  cardkurumi: cardkurumi
+  cardkurumi: cardkurumi,
+  symbolchisato: symbolchisato,
+  symboltakina: symboltakina,
+  symbolkurumi: symbolkurumi
 };
 
 export default imageMap;

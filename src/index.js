@@ -9,6 +9,7 @@ import DefaultBG from './master/default_bg';
 import { ThemeProvider } from './master/theme';
 
 // Components
+import LoadingScreen from './master/loadingscreen';
 import NavbarWrapper from './components/navwrapper';
 import SwitchCharacter from './master/switchcharacter';
 
@@ -18,6 +19,7 @@ main.render(
   <React.StrictMode>
     <DefaultBG>
       <ThemeProvider>
+        <LoadingScreen />
         <NavbarWrapper />
         <SwitchCharacter/>
       </ThemeProvider>
