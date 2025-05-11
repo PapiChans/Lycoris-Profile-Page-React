@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext, useEffect, useRef } from 'react';
 import { ThemeContext } from '../master/theme';
 import Glide from '@glidejs/glide';
 import '@glidejs/glide/dist/css/glide.core.min.css';
@@ -18,8 +18,11 @@ const Home = ({ openSwitch }) => {
   // Set the Character Info
   const character = characterInfo[theme];
 
+  // Reference
+  const glideRef = useRef(null);
+
   useEffect(() => {
-    const glide = new Glide('.glide', {
+    glideRef.current = new Glide('.glide', {
       type: 'carousel',
       startAt: 0,
       perView: 2,
@@ -38,11 +41,38 @@ const Home = ({ openSwitch }) => {
     }
   );
 
-    glide.mount();
+    glideRef.current.mount();
 
     // Cleanup when component unmounts
-    return () => glide.destroy();
+    return () => glideRef.current.destroy();
   }, []);
+
+  // This is destroy the current slide when the theme is changed
+  useEffect(() => {
+    if (glideRef.current) {
+      glideRef.current.destroy(); // Destroy previous Glide instance
+    }
+    glideRef.current = new Glide('.glide', {
+      type: 'carousel',
+      startAt: 0,
+      perView: 2,
+      gap: 0,
+      autoplay: 5000,
+      hoverpause: true,
+      keyboard: true,
+      animationDuration: 1000,
+      animationTimingFunc: 'ease-in-out',
+      touchRatio: 0.5,
+      breakpoints: {
+        768: {
+          perView: 1
+        }
+      }
+    });
+
+    glideRef.current.mount(); // Remount Glide for the new theme
+
+  }, [theme]);
 
   const images = imageMap[theme] || [];
 
