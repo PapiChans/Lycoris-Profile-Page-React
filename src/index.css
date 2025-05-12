@@ -6,6 +6,7 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth; /*This allows the scroll smoother. */
+    overflow-x: hidden;
   }
 
 
@@ -49,13 +50,15 @@
 
 /* Theme on Scrollbar */
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 7px;
 }
 
-::-webkit-slider-thumb {
+::-webkit-scrollbar-thumb {
   border-radius: 10px;
+  @apply bg-slate-400;
 }
 
 ::-webkit-scrollbar-track {
   border-radius: 10px;
+  z-index: 1;
 }

@@ -138,3 +138,9 @@
 **v0.2.10**
 - May 11,2025
 - BUG FIX: Glide saving Images BUG
+
+**v0.2.11**
+- May 12,2025
+- Add Other Content Categories
+- Add Category Context
+- Add Scrollbar Style
