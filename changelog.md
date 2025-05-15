@@ -144,3 +144,7 @@
 - Add Other Content Categories
 - Add Category Context
 - Add Scrollbar Style
+
+**v0.2.12**
+- May 15,2025
+- Switching Category Content is now Fully Functional

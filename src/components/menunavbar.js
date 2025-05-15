@@ -2,11 +2,15 @@ import React, { useEffect, useState } from 'react';
 import { useContext } from 'react';
 import { ThemeContext } from '../master/theme';
 import Logo from '../assets/logo/logo-with-text.png';
+import { ContentCategory } from '../master/switchcategory';
+import Loadingscreen from '../master/loadingscreen';
 
 const menuItems = ['Home', 'Gallery', 'Profile', 'Trivia', 'Credits'];
 
 const NavbarMenu = ({ closeMenu }) => {
   const { theme } = useContext(ThemeContext);
+  const { setCategory } = useContext(ContentCategory);
+  const [isLoading, setIsLoading] = useState(false);
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
@@ -18,7 +22,22 @@ const NavbarMenu = ({ closeMenu }) => {
     setTimeout(() => closeMenu(), 300); 
   };
 
+  const handleswitch = (item) => {
+    setIsLoading(true);
+    setTimeout(() => {
+      setCategory(item.toLowerCase());
+    }, 500)
+    setTimeout(() => {
+      handleClose();
+    }, 1000)
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1100)
+  }
+
   return (
+    <>
+    <Loadingscreen visible={isLoading} />
     <div>
       <div onClick={handleClose} className={`block fixed h-full w-full bg-slate-800 bg-opacity-50 blur-lg z-30 ${animate ? 'opacity-100' : 'opacity-0'}`}></div>
       
@@ -39,7 +58,7 @@ const NavbarMenu = ({ closeMenu }) => {
             <li 
               key={idx} 
               className='text-dark w-full flex items-center cursor-pointer relative group transition-all ease-in-out duration-1000 bg-transparent py-4 pl-8'
-              onClick={handleClose}>
+              onClick={() => handleswitch(item)}>
               <span className="z-40 group-hover:text-slate-50 text-md">{item}</span>
               <div 
                 className={`absolute inset-0 bg-${theme} transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 origin-left`}
@@ -51,6 +70,7 @@ const NavbarMenu = ({ closeMenu }) => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
