@@ -6,7 +6,8 @@ const Gallery = () => {
   
     return (
       <>
-          <div className={` ${category === 'gallery' ? 'min-h-screen w-full bg-slate-600' : 'hidden' }`}>
+          <div className={` ${category === 'gallery' ? 'min-h-screen w-full' : 'hidden' }`}>
+            <h1 className='text-center ff-goldman font-semibold text-5xl overflow-y-hidden'>GALLERY</h1>
           </div> 
       </>
     )

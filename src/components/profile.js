@@ -7,7 +7,8 @@ const Profile = () => {
 
   return (
     <>
-        <div className={` ${category === 'profile' ? 'min-h-screen w-full bg-slate-600' : 'hidden' }`}>
+        <div className={` ${category === 'profile' ? 'min-h-screen w-full' : 'hidden' }`}>
+          <h1 className='text-center ff-goldman font-semibold text-5xl overflow-y-hidden'>PROFILE</h1>
         </div> 
     </>
   )

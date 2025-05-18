@@ -41,7 +41,7 @@ const NavbarMenu = ({ closeMenu }) => {
     <div>
       <div onClick={handleClose} className={`block fixed h-full w-full bg-slate-800 bg-opacity-50 blur-lg z-30 ${animate ? 'opacity-100' : 'opacity-0'}`}></div>
       
-      <div className={`z-40 h-full w-80 bg-slate-100 bg-opacity-50 fixed transform transition-transform duration-300 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+      <div className={`z-40 h-full w-80 bg-slate-100 bg-opacity-50 fixed transform transition-transform duration-300 overflow-y-hidden ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className='w-full h-auto flex justify-end items-center py-4 px-8'>
           <i 
             className={`z-20 fa-solid fa-close text-2xl cursor-pointer transition-all ease-in-out duration-300 text-slate-800 hover-text-${theme}`} 

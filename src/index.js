@@ -9,6 +9,8 @@ import DefaultBG from './master/default_bg';
 import { ThemeProvider } from './master/theme';
 // Content Category
 import { ContentProvider } from './master/switchcategory';
+// Content Layout
+import ContentLayout from './master/contentlayout';
 
 // Components
 import LoadingScreen from './master/loadingscreen';
@@ -29,10 +31,12 @@ main.render(
           <LoadingScreen />
           <NavbarWrapper />
           <SwitchCharacter/>
-          <Gallery />
-          <Profile />
-          <Trivia />
-          <Credits />
+          <ContentLayout>
+            <Gallery />
+            <Profile />
+            <Trivia />
+            <Credits />
+          </ContentLayout>
         </ContentProvider>
       </ThemeProvider>
     </DefaultBG>

@@ -148,3 +148,8 @@
 **v0.2.12**
 - May 15,2025
 - Switching Category Content is now Fully Functional
+
+**v0.2.13**
+- May 18,2025
+- Add Content Layout for Not 'Home' Section
+- Adjust the Other Category Content

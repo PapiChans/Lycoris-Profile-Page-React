@@ -6,7 +6,8 @@ const Credits = () => {
   
     return (
       <>
-          <div className={` ${category === 'credits' ? 'min-h-screen w-full bg-red-600' : 'hidden' }`}>
+          <div className={` ${category === 'credits' ? 'min-h-screen w-full' : 'hidden' }`}>
+            <h1 className='text-center ff-goldman font-semibold text-5xl overflow-y-hidden'>CREDITS</h1>
           </div> 
       </>
     )
