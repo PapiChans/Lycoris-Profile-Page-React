@@ -153,3 +153,7 @@
 - May 18,2025
 - Add Content Layout for Not 'Home' Section
 - Adjust the Other Category Content
+
+**v0.2.13.1**
+- May 20,2025
+- Add Disclaimer Content on Credits Page. (Can be improved)
