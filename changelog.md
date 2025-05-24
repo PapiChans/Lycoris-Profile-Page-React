@@ -157,3 +157,7 @@
 **v0.2.13.1**
 - May 20,2025
 - Add Disclaimer Content on Credits Page. (Can be improved)
+
+**v0.2.13.2**
+- May 25,2025
+- Disclaimer Content Improved.
