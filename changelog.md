@@ -159,5 +159,10 @@
 - Add Disclaimer Content on Credits Page. (Can be improved)
 
 **v0.2.13.2**
-- May 25,2025
+- May 24,2025
 - Disclaimer Content Improved.
+
+**v0.2.14**
+- May 25,2025
+- Adjust Content Layout
+- Adding the Credits > About the Creator Content (Incomplete) 
