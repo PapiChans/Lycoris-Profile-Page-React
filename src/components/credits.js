@@ -31,12 +31,18 @@ const Credits = () => {
                   <div className='p-8 h-auto w-full md:w-2/3'>
                     <h1 className='text-center md:text-start ff-goldman font-semibold text-4xl overflow-y-hidden'>PapiChans</h1>
                     <div className="w-full h-auto flex md:justify-start sm:justify-center justify-center">
-                      <button className={`w-auto h-auto bg-${theme} py-2 px-20 mt-4 ff-be-vietnam-pro transition-all duration-300 ease-in-out hover:bg-opacity-70 text-slate-50 rounded-xl`}>
-                        GitHub
-                      </button>
+                      <a href='https://github.com/papichans' target='_blank' rel='noopener noreferrer'>
+                        <button className={`w-auto h-auto bg-${theme} py-2 px-20 mt-4 ff-be-vietnam-pro transition-all duration-300 ease-in-out hover:bg-opacity-70 text-slate-50 rounded-xl`}>
+                          GitHub
+                        </button>
+                      </a>
                     </div>
+                    <p className='ff-be-vietnam-pro mt-4 text-justify'>PapiChans is a Programmer / Web Developer who trying to pursue of being a programmer, creating this project to improve my React.JS skills. Im just a programmer passing by, remember that.</p>
                   </div>
                 </div>
+            </div>
+             <div className='m-4 rounded-lg p-4'>
+              <h1 className={`text-center ff-goldman font-semibold text-3xl overflow-y-hidden ${ theme === 'kurumi' ? 'text-slate-900' : 'text-slate-50' } bg-${theme} rounded-lg p-4`}>About the project</h1>
             </div>
           </div>
       </>

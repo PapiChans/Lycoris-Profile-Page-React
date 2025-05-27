@@ -165,4 +165,9 @@
 **v0.2.14**
 - May 25,2025
 - Adjust Content Layout
-- Adding the Credits > About the Creator Content (Incomplete) 
+- Adding the Credits > About the Creator Content (Incomplete)
+
+**v0.2.15**
+- May 27,2025
+- Abbout the creator (Compplpeted)
+- Adding About the Project content on Credit Category
