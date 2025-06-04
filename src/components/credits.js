@@ -2,6 +2,7 @@ import React, {useContext} from 'react'
 import { ContentCategory } from '../master/switchcategory'
 import { ThemeContext } from '../master/theme'
 import creatorLogo from '../assets/logo.png'
+import projectLogo from '../assets/chisato_icon.png'
 
 const Credits = () => {
   const { category } = useContext(ContentCategory);
@@ -43,6 +44,20 @@ const Credits = () => {
             </div>
              <div className='m-4 rounded-lg p-4'>
               <h1 className={`text-center ff-goldman font-semibold text-3xl overflow-y-hidden ${ theme === 'kurumi' ? 'text-slate-900' : 'text-slate-50' } bg-${theme} rounded-lg p-4`}>About the project</h1>
+                <div className='p-4 h-auto w-full flex justify-center items-center'>
+                  <img src={projectLogo} alt='creatorLogo' className={`h-72 w-72 border-2 border-${theme} rounded-lg`} />
+                </div>
+                <p className='ff-be-vietnam-pro mt-4 text-justify'>This project is for Front-end practice only, specially React.JS. My admires for anime and my dedicated skills as a Developer will lead me to create new Projects that I like to make just for my own purposes and at the same time
+                  it can be also my practice ground and showcasing my skills. This serves as my projects that I want to show, showing mt skills when it comes to programming or developing. Also my love for anime made me inspire to do things that even unoffical but in my own safisfaction. Feel free
+                  to browse more.
+                </p>
+                <p className='ff-be-vietnam-pro mt-4 text-justify'>
+                  Lycoris Recoil is one of my great Anime that I ever watched maybe due to my likings of genre in shows such as action and girls. This only shows the info for them just to show how the project works. All of the images and the information cames from different resources and sources,
+                  giving them a credits as the purpose of this is for personal purposes only.
+                </p>
+            </div>
+            <div className='m-4 rounded-lg p-4'>
+                <h1 className={`text-center ff-goldman font-semibold text-3xl overflow-y-hidden ${ theme === 'kurumi' ? 'text-slate-900' : 'text-slate-50' } bg-${theme} rounded-lg p-4`}>Sources</h1>
             </div>
           </div>
       </>

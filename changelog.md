@@ -169,5 +169,10 @@
 
 **v0.2.15**
 - May 27,2025
-- Abbout the creator (Compplpeted)
-- Adding About the Project content on Credit Category
+- About the creator (Completed)
+- Adding About the Project content on Credits Category
+
+**v0.2.16**
+- June 3, 2025
+- "About the Project" - Completed
+- Adding "Source" Section to the Credits category
