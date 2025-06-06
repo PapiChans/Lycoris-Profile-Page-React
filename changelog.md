@@ -176,3 +176,8 @@
 - June 3, 2025
 - "About the Project" - Completed
 - Adding "Source" Section to the Credits category
+
+**v0.3.0**
+- June 6, 2025
+- Content from "Credits" Category is finally finished
+- Proceeding to "Trivia" Category

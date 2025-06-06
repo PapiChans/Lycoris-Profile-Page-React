@@ -4,10 +4,14 @@ import { ThemeContext } from '../master/theme'
 import creatorLogo from '../assets/logo.png'
 import projectLogo from '../assets/chisato_icon.png'
 
+// Source
+import source from '../data/source'
+
 const Credits = () => {
   const { category } = useContext(ContentCategory);
   const { theme } = useContext(ThemeContext);
-  
+  const sources = source;
+
     return (
       <>
           <div className={` ${category === 'credits' ? 'min-h-screen w-full block' : 'hidden' }`}>
@@ -55,9 +59,17 @@ const Credits = () => {
                   Lycoris Recoil is one of my great Anime that I ever watched maybe due to my likings of genre in shows such as action and girls. This only shows the info for them just to show how the project works. All of the images and the information cames from different resources and sources,
                   giving them a credits as the purpose of this is for personal purposes only.
                 </p>
-            </div>
-            <div className='m-4 rounded-lg p-4'>
-                <h1 className={`text-center ff-goldman font-semibold text-3xl overflow-y-hidden ${ theme === 'kurumi' ? 'text-slate-900' : 'text-slate-50' } bg-${theme} rounded-lg p-4`}>Sources</h1>
+                <h1 className={`text-center ff-goldman font-semibold text-3xl overflow-y-hidden ${ theme === 'kurumi' ? 'text-slate-900' : 'text-slate-50' } bg-${theme} rounded-lg p-4 mt-4`}>Sources</h1>
+                <ul className={`ff-be-vietnam-pro p-4`}>
+                 <p className='ff-goldman text-2xl'>Wiki</p>
+                  {sources.Wiki.map((url, index) => (
+                    <li key={index} className={`text-slate-900 m-4`}>
+                      <a href={url} target="_blank" rel="noopener noreferrer" className={`transition-all duration-300 border-b-2 border-slate-50 hover:border-slate-600`}>
+                        {url}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
             </div>
           </div>
       </>
