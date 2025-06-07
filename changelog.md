@@ -181,3 +181,7 @@
 - June 6, 2025
 - Content from "Credits" Category is finally finished
 - Proceeding to "Trivia" Category
+
+**v0.3.1**
+- June 7, 2025
+- Preparing Data Json for each Characters
