@@ -185,3 +185,9 @@
 **v0.3.1**
 - June 7, 2025
 - Preparing Data Json for each Characters
+
+**v0.3.2**
+- June 8, 2025
+- Additional data from the Character Sources
+- Fixing the Update layout for the rest on categories
+- Initiating the content on the Trivia Category
