@@ -2,6 +2,8 @@ import model from '../assets/models/chisato-nishikigi.png'
 
 const ChisatoData = {
     name: 'Chisato Nishikigi',
+    japanese: "錦木 千束",
+    va_japanese: "Chika Anzai",
     model: model,
     trivia: [
         `Chisato's pistol is confirmed to be based on the Tokyo Marui Strike Warrior Gas BlowBack airsoft pistol. The gun itself is based on the Detonics CombatMaster, a modified version of the Colt 1911 with a specialized close-quarters combat compensator`,

@@ -191,3 +191,9 @@
 - Additional data from the Character Sources
 - Fixing the Update layout for the rest on categories
 - Initiating the content on the Trivia Category
+
+**v0.3.3**
+- June 12, 2025
+- Additional data from the Character Sources
+- Add Models on the Profile Category
+- Completed "Trivia" Category

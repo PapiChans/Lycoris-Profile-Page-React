@@ -28,8 +28,10 @@ const Trivia = () => {
                 <div className={`w-full h-auto m-4 rounded-lg p-4`}>
                   <ul>
                     {data.trivia.map((trivia, index) => (
-                       <li key={index} className={`text-slate-900 m-4`}>
+                      <li key={index} className={`text-slate-900 m-4 flex text-lg`}>
                         <p className={`transition-all duration-300 border-b-2 border-slate-50 hover:border-slate-600`}>
+                          <span className={`text-xl text-${theme} font-bold mr-4`}>{index + 1}.</span>
+                          
                           {trivia}
                         </p>
                       </li>
