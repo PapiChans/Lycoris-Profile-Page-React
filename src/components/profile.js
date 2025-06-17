@@ -48,6 +48,19 @@ const Profile = () => {
           <h1 className='ff-goldman text-4xl md:text-5xl sm:text-4xl text-slate-950 text-center overflow-y-hidden'><span className={`text-${theme}`}>-</span>{ data.name }<span className={`text-${theme}`}>-</span></h1>
             <p className={`ff-be-vietnam-pro font-bold text-center ease-in-out transition-all text-slate-950 duration-300 text-lg hover-text-${theme}`}>{data.japanese}</p>
             <p className={`ff-be-vietnam-pro font-normal text-center ease-in-out transition-all text-slate-950 duration-300 text-lg`}>CV: {data.va_japanese}</p>
+          <h3 className='ff-goldman mt-12 text-3xl ml-0 md:ml-8 text-center sm:text-start'>Biological Information</h3>
+          <div className='w-100 mb-12 h-auto'>
+            <div className={`h-auto px-12 mt-4`}>
+              <div className={`mb-4 bg-${theme} bg-opacity-25 w-100 h-12 rounded-md flex items-center border-t-4 border-${theme}`}>
+                  <div className='h-full w-1/2 flex text-start items-center px-8'>
+                    <p className='ff-be-vietnam-pro text-md'>Age</p>
+                  </div>
+                  <div className='h-full w-1/2 flex justify-end items-center px-8'>
+                    <p className='ff-be-vietnam-pro text-md'>{ data.age }</p>
+                  </div>
+              </div>
+            </div>
+          </div>
         </div> 
     </>
   )

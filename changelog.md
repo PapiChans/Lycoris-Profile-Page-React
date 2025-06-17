@@ -197,3 +197,8 @@
 - Additional data from the Character Sources
 - Add Models on the Profile Category
 - Completed "Trivia" Category
+
+**v0.3.4**
+- June 17, 2025
+- Additional data from the Character Sources
+- Adding layout for the Information in Profile
