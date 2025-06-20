@@ -6,7 +6,7 @@
 | ------------------- | --------------------|
 | **Description**     | A Profile page inspired on Lycoris Recoil built in React.Js + Tailwind CSS. |
 | **Project Duration**    | April 1, 2025 - Present |
-| **Current Version** | v0.3.4 | 
+| **Current Version** | v0.3.5 | 
 
 
 ## Technologies Used for this Application

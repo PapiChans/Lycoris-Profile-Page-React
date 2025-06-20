@@ -202,3 +202,7 @@
 - June 17, 2025
 - Additional data from the Character Sources
 - Adding layout for the Information in Profile
+
+**v0.3.5**
+- June 20, 2025
+- Additional data from the Character Sources
