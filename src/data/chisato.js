@@ -10,14 +10,16 @@ const ChisatoData = {
         `Despite her non-lethal rounds being referred to as "rubber bullets" in the anime, they have the visual effect of pepper spray projectiles. These rounds can also fit into Takina's pistol.`,
         `Chisato is the only character in the series that requires a mechanical prosthesis in place of an actual organ to continue living.`
     ],
-    age: '18',
-    height: `162cm (5'3)`,
-    hair_color: 'Blonde',
-    eye_color: 'Red',
-    blood_type: 'AB',
-    status: 'Alive',
-    affiliation: 'Café LycoReco',
-    occupation: 'Waitress, Lycoris',
+    "biological": {
+        "age": "18",
+        "height": "162cm (5'3)",
+        "hair_color": "Blonde",
+        "eye_color": "Red",
+        "blood_type": "AB",
+        "status": "Alive",
+        "affiliation": "Café LycoReco",
+        "occupation": "Waitress, Lycoris"
+    }
 }
 
 export default ChisatoData;

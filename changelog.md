@@ -206,3 +206,8 @@
 **v0.3.5**
 - June 20, 2025
 - Additional data from the Character Sources
+
+**v0.3.6**
+- June 22, 2025
+- Additional data from the Character Sources
+- Profile Biological Information is now looped
