@@ -34,7 +34,7 @@ const Profile = () => {
 
   return (
     <>
-        <div className={` ${category === 'profile' ? 'min-h-screen w-full block' : 'hidden' }`}>
+        <div className={` ${category === 'profile' ? 'min-h-screen w-full block mb-12' : 'hidden' }`}>
           <h1 className='text-center ff-goldman font-semibold text-5xl overflow-y-hidden'>PROFILE</h1>
           <div className='flex justify-center'>
             <div className={`w-full h-auto m-4 rounded-lg p-4`}>
@@ -64,6 +64,18 @@ const Profile = () => {
                 </div>
               ))}
             </div>
+          </div>
+          <h3 className='ff-goldman mt-4 text-3xl ml-0 md:ml-8 sm:ml-4 text-center sm:text-start'>Profile</h3>
+          <div className='px-8 py-2 h-auto w-full flex justify-center items-center'>
+            <p className="ff-be-vietnam-pro text-md text-justify">
+              { data.profile }
+            </p>
+          </div>
+          <h3 className='ff-goldman mt-4 text-3xl ml-0 md:ml-8 sm:ml-4 text-center sm:text-start'>Appearance</h3>
+          <div className='px-8 py-2 h-auto w-full flex justify-center items-center'>
+            <p className="ff-be-vietnam-pro text-md text-justify">
+              { data.appearance }
+            </p>
           </div>
         </div> 
     </>

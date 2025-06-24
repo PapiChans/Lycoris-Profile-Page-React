@@ -17,7 +17,9 @@ const TakinaData = {
         "status": "Alive",
         "affiliation": "Café LycoReco",
         "occupation": "Waitress, Lycoris"
-    }
+    },
+    profile: `An exceptional Lycoris, she now works at Café LycoReco, as punishment for disobeying orders. A realistic person with a distaste for inefficiency, she can be dissatisfied with Chisato, who is not a typical Lycoris. She wants to see good results in her job at LycoReco.`,
+    appearance: `Takina is a young girl with long, black hair and purple eyes. When operating as a Lycoris, she wears her navy blue 2nd Lycoris uniform paired with black knee-high socks and brown loafers. When working at Café LycoReco, she wears a cerulean blue samue with dark blue and yellow accents, a dark blue kimono skirt, and a beige apron wrapped around her waist.`,
 }
 
 export default TakinaData;

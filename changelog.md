@@ -211,3 +211,8 @@
 - June 22, 2025
 - Additional data from the Character Sources
 - Profile Biological Information is now looped
+
+**v0.4.0**
+- June 24, 2025
+- Additional data from the Character Sources
+- "Profile" Section Finished, Proceeding to Gallery

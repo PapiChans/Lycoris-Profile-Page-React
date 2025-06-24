@@ -19,7 +19,9 @@ const ChisatoData = {
         "status": "Alive",
         "affiliation": "Café LycoReco",
         "occupation": "Waitress, Lycoris"
-    }
+    },
+    profile: `Said to be the strongest Lycoris of all time. She enjoys solving private-sector problems that the DA does not address. Unlike other Lycoris, Chisato is heavily committed to using exclusively non-lethal means to neutralize her opponents. At Café LycoReco, she works joyfully and cheerfully as the self-proclaimed poster girl.`,
+    appearance: `Chisato is a young girl with medium-length blonde hair worn in a bob cut, and red eyes. She usually wears a red ribbon, tied in a bow on the left side of her hair. When operating as a Lycoris, she wears her red 1st Lycoris uniform, which is a red and grey pleated dress, paired with black calf-high socks and brown loafers. When working at Café LycoReco, she wears a red samue with dark blue and lime-green accents, a dark blue kimono skirt, and a beige apron wrapped around her waist. She also wears an Alan Institute pendant around her neck at all times.`,
 }
 
 export default ChisatoData;
