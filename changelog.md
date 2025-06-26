@@ -216,3 +216,8 @@
 - June 24, 2025
 - Additional data from the Character Sources
 - "Profile" Section Finished, Proceeding to Gallery
+
+**v0.4.1**
+- June 26, 2025
+- Preparation for Gallery
+- Install Lightbox Package
