@@ -221,3 +221,8 @@
 - June 26, 2025
 - Preparation for Gallery
 - Install Lightbox Package
+
+**v1.0.0**
+- July 1, 2025
+- "Gallery" Section finished
+- The Project is officially finished
